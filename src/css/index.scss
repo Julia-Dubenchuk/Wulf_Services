@@ -1,0 +1,24 @@
+@import "./__colors"; 
+@import "./_typography"; 
+@import "./__button";
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    background-color: #ffffff;
+}
+
+//=============================header=============================
+
+.card{
+    max-width: 1160px;
+    height: 910px;
+    box-shadow: 0px 30px 120px 0px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}

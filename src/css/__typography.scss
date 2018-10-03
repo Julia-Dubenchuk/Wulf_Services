@@ -1,0 +1,8 @@
+@import "__utillity", "./__colors";
+
+$fontCabin: 'Cabin', 'Roboto', sans-serif;
+
+.main-title{
+    @include font-item($size: 186px, $height: 186px, $weight: 700, $color: $white);
+    text-shadow: 0px 20px 90px rgba(36, 33, 31, 0.1);
+}

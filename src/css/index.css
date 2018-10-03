@@ -1,0 +1,30 @@
+.main-title {
+  font-family: "Circe", "Roboto", sans-serif;
+  font-size: 186px;
+  line-height: 186px;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 0px 20px 90px rgba(36, 33, 31, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  background-color: #ffffff;
+}
+
+.card {
+  max-width: 1160px;
+  height: 910px;
+  box-shadow: 0px 30px 120px 0px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+/*# sourceMappingURL=index.css.map */
