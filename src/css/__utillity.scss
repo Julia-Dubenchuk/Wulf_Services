@@ -1,8 +1,8 @@
 @import "__colors";
 
-$fontCirce: 'Circe', 'Roboto', sans-serif;
 
-@mixin font-item($family: $fontCirce,  $size: 18px, $height: 32px, $weight: 400, $color: $primary) {
+
+@mixin font-item($family: $fontCirceRegular,  $size: 18px, $height: 32px, $weight: 400, $color: $primary) {
   font-family: $family;
   font-size: $size;
   line-height: $height;
