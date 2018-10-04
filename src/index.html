@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <title>Wulf Services</title>
     <link rel="stylesheet" href="./css/index.css">
 </head>
+
 <body>
     <div class="wrapper">
         <div class="contact">
@@ -16,6 +18,10 @@
                 </li>
                 <li class="social-icon">
                     <a href="#"><img src="./image/mail_icon.svg" alt="icon mail"></a>
+                    <div class="social-lines">
+                        <div class="line-top"></div>
+                        <div class="line-bottom"></div>
+                    </div>
                 </li>
                 <li class="social-icon">
                     <a href="#"><img src="./image/icon.svg" alt="icon mail"></a>
@@ -30,7 +36,63 @@
         </div>
         <header class="section-header">
             <h1 class="main-title">Our process</h1>
-            <div class="pagination"></div>
+            <div class="pagination">
+                <div class="pagination__arrow">
+                    <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="9px" height="30px" viewBox="0 0 9 30">
+                        <path fillRule="evenodd" d="M 8.29 5.01C 8.29 5.01 5 1.72 5 1.72 5 1.72 5 30 5 30 5 30 4 30 4 30 4 30 4 2.21 4 2.21 4 2.21 0.73 5.47 0.73 5.47 0.73 5.47 0.02 4.77 0.02 4.77 0.02 4.77 4.04 0.75 4.04 0.75 4.04 0.75 3.99 0.71 3.99 0.71 3.99 0.71 4.71-0.01 4.71-0.01 4.71-0.01 9.01 4.29 9.01 4.29 9.01 4.29 8.29 5.01 8.29 5.01Z" fill="#efbd6b"/></svg>
+                    </a>
+                </div>
+                <div class="pagination__content">
+                    <div class="left">
+                        <ul class="pages">
+                            <li class="page"><span class="page__number font-number">01</span></li>
+                            <li class="page">
+                                <div class="active-page"></div>
+                                <span class="page__number font-number active">02</span>
+                            </li>
+                            <li class="page"><span class="page__number font-number">03</span></li>
+                            <li class="page"><span class="page__number font-number">04</span></li>
+                            <li class="page"><span class="page__number font-number">05</span></li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <ul class="name-pages">
+                            <li class="name-page">
+                                <span class="nonactive-page font-text">Process Name</span>
+                                <div class="active-page" hidden></div>
+                            </li>
+                            <li class="name-page">
+                                <span class="nonactive-page font-text" hidden>Process Name</span>
+                                <div class="active-page"></div>
+                            </li>
+                            <li class="name-page">
+                                <span class="nonactive-page font-text">Process Name</span>
+                                <div class="active-page" hidden></div>
+                            </li>
+                            <li class="name-page">
+                                <span class="nonactive-page font-text">Process Name</span>
+                                <div class="active-page" hidden></div>
+                            </li>
+                            <li class="name-page">
+                                <span class="nonactive-page font-text">Process Name</span>
+                                <div class="active-page" hidden></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="pagination__arrow">
+                    <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="9px" height="30px" viewBox="0 0 9 30">
+                        <path fillRule="evenodd" d="M 9.01 25.71C 9.01 25.71 4.71 30.01 4.71 30.01 4.71 30.01 3.99 29.29 3.99 29.29 3.99 29.29 4.04 29.24 4.04 29.24 4.04 29.24 0.02 25.23 0.02 25.23 0.02 25.23 0.73 24.52 0.73 24.52 0.73 24.52 4 27.79 4 27.79 4 27.79 4-0 4-0 4-0 5-0 5-0 5-0 5 28.28 5 28.28 5 28.28 8.29 24.99 8.29 24.99 8.29 24.99 9.01 25.71 9.01 25.71Z" fill="#efbd6b"/>
+                    </svg>
+                    </a>
+                </div>
+            </div>
             <div class="card">
                 <div class="card__pagination">
                     <a href="#" class="link-process">Previous process <img src="./image/arrow_up.svg" alt="Arrow up"></a>
@@ -45,8 +107,10 @@
                             <span class="font-description">Red and rounded</span>
                         </div>
                         <div class="process-item">
-                            <p class="font-text">Birds (Aves) are a group of endothermic vertebrates, characterised by feathers, toothless beaked jaws, laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart. of hard-shelled eggs, 
-                            a high metabolic rate, a four-chambered heart.</p>
+                            <p class="font-text">Birds (Aves) are a group of endothermic vertebrates, characterised by
+                                feathers, toothless beaked jaws, laying of hard-shelled eggs, a high metabolic rate, a
+                                four-chambered heart. of hard-shelled eggs,
+                                a high metabolic rate, a four-chambered heart.</p>
                         </div>
                     </div>
                 </div>
@@ -55,10 +119,11 @@
                         <img src="./image/arrow_down.svg" alt="Arrow down">
                     </a>
                 </div>
-            </div>    
+            </div>
         </header>
         <div class="content"></div>
         <footer></footer>
     </div>
 </body>
+
 </html>

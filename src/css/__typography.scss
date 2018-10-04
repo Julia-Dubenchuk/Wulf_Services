@@ -54,3 +54,6 @@ $fontCirceExtraBold: 'Circe ExtraBold', 'Roboto', sans-serif;
     @include font-item($family: $fontCabin, $size: 13px, $height: 14px, $color: $light-grey);
     transform: scaleY(1.0023);
 }
+.font-number{
+    @include font-item($family: $fontCirceBold, $size: 21px, $height: 21px, $color: $primary);
+}
