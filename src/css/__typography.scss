@@ -31,29 +31,75 @@
     font-style: normal;
 }
 
+@font-face {
+  font-family: 'Circe ExtraLight';
+  src: url('../font/Circe-ExtraLight.eot');
+  src: url('../font/Circe-ExtraLight.eot?#iefix') format('embedded-opentype'),
+  url('../font/Circe-ExtraLight.woff') format('woff'),
+  url('../font/Circe-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 $fontCabin: 'Cabin', 'Roboto', sans-serif;
+$fontCirceExtraLight: 'Circe ExtraLight', 'Roboto', sans-serif;
 $fontCirceRegular: 'Circe Regular', 'Roboto', sans-serif;
 $fontCirceBold: 'Circe Bold', 'Roboto', sans-serif;
 $fontCirceExtraBold: 'Circe ExtraBold', 'Roboto', sans-serif;
 
 .main-title{
     @include font-item($family: $fontCirceExtraBold, $size: 187px, $height: 186px, $weight: 700, $color: $white);
-    text-shadow: 0px 20px 90px rgba(36, 33, 31, 0.1);
+    text-shadow: 0 20px 90px rgba(36, 33, 31, 0.1);
     text-transform: uppercase;
+}
+
+.main-question{
+    @include font-item($family: $fontCirceExtraBold, $size: 62px, $height: 80px, $weight: 700, $color: $white);
+}
+
+.content-title{
+    @include font-item($family: $fontCirceExtraBold, $size: 59px, $height: 59px, $weight: 700, $color: $black);
+    word-spacing: 5.2px;
 }
 .title-card{
     @include font-item($family: $fontCirceBold, $size: 48px, $height: 48px, $weight: 700, $color: $black);
 }
+.title-form{
+  @include font-item($family: $fontCirceExtraBold, $size: 43px, $height: 80px, $weight: 700, $color: $white);
+}
 .font-description{
     @include font-item($size: 23px, $height: 23px, $color: $grey);
 }
+.font-footer-btn{
+    @include font-item($family: $fontCirceExtraBold, $size: 23px, $height: 23px, $weight: 700, $color: $btn-font);
+}
 .font-text{
     @include font-item($family: $fontCabin, $color: $primary);
+}
+.font-number{
+    @include font-item($family: $fontCirceBold, $size: 21px, $height: 21px, $color: $primary);
+}
+.font-footer_dark{
+    @include font-item($family: $fontCirceExtraBold, $size: 16px, $height: 16px, $weight: 700, $color: $footer-dark-color);
+    text-transform: uppercase;
+}
+.font-placeholder{
+  @include font-item($family: $fontCirceExtraLight, $size: 16px, $height: 16px, $weight: 300, $color: $font-placeholder);
+  text-shadow: 0 59px 137px rgba(0, 0, 0, 0.09);
+}
+.font-footer_light{
+  @include font-item($family: $fontCirceExtraBold, $size: 16px, $height: 16px, $weight: 700, $color: $footer-light-color);
+  text-transform: uppercase;
 }
 .link-process{
     @include font-item($family: $fontCabin, $size: 13px, $height: 14px, $color: $light-grey);
     transform: scaleY(1.0023);
 }
-.font-number{
-    @include font-item($family: $fontCirceBold, $size: 21px, $height: 21px, $color: $primary);
+.button-name{
+    @include font-item($size: 13px, $height: 14px, $weight: 700, $color: $btn-color);
+    text-transform: uppercase;
+}
+.author__font{
+  @include font-item($family: $fontCirceExtraBold, $size: 12px, $height: 14px, $weight: 700, $color: $footer-dark-author);
+  text-transform: uppercase;
 }
