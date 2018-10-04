@@ -1,8 +1,13 @@
 @import "./__colors"; 
 @import "./_typography"; 
 @import "./__button";
+@import "./__utillity";
 
-body{
+body,
+h1,
+h2,
+h3,
+h4{
     margin: 0;
     padding: 0;
 }
@@ -18,6 +23,11 @@ ul{
         list-style: none;
     }
 }
+
+::-webkit-input-placeholder {color:$font-placeholder;}
+::-moz-placeholder          {color:$font-placeholder;}/* Firefox 19+ */
+:-moz-placeholder           {color:$font-placeholder;}/* Firefox 18- */
+:-ms-input-placeholder      {color:$font-placeholder;}
 
 .wrapper{
     background-color: #ffffff;
@@ -36,9 +46,7 @@ ul{
     width: 64px;
     height: 346px;
     .social-icon{
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
+        @include flex($justify: center);
         width: 100%;
         height: 64px;
         a{
@@ -74,20 +82,18 @@ ul{
 }
 
 .pagination{
-    display: flex;
-    flex-direction: column;
+    @include flex($direction: column);
     position: absolute;
     top: 477px;
     left: 148px;
-    z-index: 1;
+    z-index: 2;
     &__arrow{
         padding: 30px 0 31px 33px;
     }
     &__content{
         display: flex;
         .pages{
-            display: flex;
-            flex-direction: column;
+            @include flex($direction: column);
             background-color: $white;
             box-shadow: 0px 20px 90px 0px rgba(36, 33, 31, 0.15);
             width: 75px;
@@ -104,9 +110,7 @@ ul{
                 }
             }
             .page{
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include flex($justify: center, $align: center);
                 position: relative;
                 height: 77px;
                 &:not(:last-child){
@@ -120,13 +124,10 @@ ul{
         .right{
             padding-left: 57px;
             .name-pages{
-                display: flex;
-                flex-direction: column;
+                @include flex($direction: column);
                 height: 396px;
                 .name-page{
-                    display: flex;
-                    justify-content: flex-start;
-                    align-items: center;
+                    @include flex($align: center);
                     height: 79px;
                     .active-page{
                         width: 326px;
@@ -150,11 +151,10 @@ ul{
     top: 146px;
     margin: 0;
     max-width: 876px;
-    z-index: 1;
+    z-index: 2;
 }
 .card{
-    display: flex;
-    flex-direction: column;
+    @include flex($direction: column);
     position: absolute;
     right: 238px;
     top: 232px;
@@ -162,13 +162,12 @@ ul{
     height: 910px;
     box-shadow: 0px 30px 120px 0px rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
+    z-index: 1;
     &__pagination{
-        display: flex;
-        justify-content: flex-end;
+        @include flex($justify: flex-end);
         padding: 60px 41px 196px;
         .link-process{
-            display: flex;
-            align-items: center;
+            @include flex($align: center);
         }
         img{
             padding-left: 27px;
@@ -181,19 +180,173 @@ ul{
             flex-wrap: wrap;
             .process-item{
                 .title-card{
-                    margin: 0;
                     padding-bottom: 20px;
                 }
                 &:nth-child(2){
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
+                    @include flex($direction: column, $justify: center);
                     padding-left: 40px;
                 }
                 &:last-child{
                     max-width: 547px;
                     padding-top: 74px;
                 }
+            }
+        }
+    }
+}
+
+//=========================content================================
+.content{
+    width: 100%;
+    height: 500px;
+    background-color: $background-content;
+    position: relative;
+    .main{
+        max-width: 1160px;
+        border: 1px solid $black;
+        padding: 50px 80px 64px 82px;
+        @include flex($direction: column);
+        position: absolute;
+        right: 238px;
+        bottom: 100px;
+        .next{
+            padding-bottom: 25px;
+        }
+        .wrapper-content{
+            @include flex($align: center);
+            .title{
+                padding-right: 139px;
+            }
+            .button{
+                &__services{
+                    background-color:  #ffffff;
+                    box-shadow: 0px 10px 43px 0px rgba(0, 0, 0, 0.13);
+                    width: 280px;
+                    height: 50px;
+                    position: relative;
+                    padding: 0;
+                    cursor: pointer;
+                    border: none;
+                }
+                &__line{
+                    background-color:  $active-page;
+                    box-shadow: 0 10px 43px 0 rgba(0, 0, 0, 0.13);
+                    width: 240px;
+                    height: 4px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 19px;
+                }
+            }
+        }
+    }
+}
+
+//==========================================footer===================================
+
+.section-footer{
+    width: 100%;
+    //height: 1234px;
+    display: flex;
+    justify-content: center;
+    background: url("../image/background_footer.svg") center bottom / cover no-repeat;
+    position: relative;
+    .main-logo{
+        position: absolute;
+        top: 326px;
+        left: 40%;
+    }
+
+}
+
+.footer-wrapper{
+    @include flex($direction: column, $justify: center, $align: center);
+    padding-bottom: 46px;
+    border: 3px solid $black;
+    .main-question{
+        text-align: center;
+        padding: 535px 400px 0;
+    }
+    .footer-btn{
+        padding: 78px 138px 251px 142px;
+        .button{
+            border: 2px solid $btn-font;
+            background-color: transparent;
+            width: 240px;
+            height: 63px;
+        }
+    }
+    .footer-info{
+        @include flex($justify: space-between);
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 138px 0 142px;
+        .footer-icon{
+            @include flex($justify: space-between);
+            width: 239px;
+        }
+    }
+}
+
+.footer-bottom{
+    @include flex($justify: flex-end, $align: center);
+    padding: 27px 138px 56px 142px;
+    .author{
+        @include flex($align: center);
+        &__icon{
+            padding-left: 13px;
+        }
+    }
+}
+
+.footer-form{
+    @include flex($direction: column);
+    width: 520px;
+    height: 372px;
+    .block-close{
+        @include flex($justify: flex-end);
+    }
+    .block-form{
+        .wrapper-form{
+            @include flex($justify: center);
+            .data{
+                @include flex($direction: column);
+                .elem-form{
+                    width: 248px;
+                    height: 42px;
+                    border: 1px solid $light-orange;
+                    background-color: $background-input;
+                    padding-left: 21px;
+                    box-sizing: border-box;
+                    &:not(:last-child){
+                        margin-bottom: 19px;
+                    }
+                }
+            }
+            .message{
+                padding-left: 20px;
+                .elem-textarea{
+                    border: 1px solid $light-orange;
+                    background-color: $background-input;
+                    resize: none;
+                    padding-left: 19px;
+                    padding-top: 15px;
+                    width: 250px;
+                    height: 164px;
+                    -webkit-box-sizing: border-box;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                }
+            }
+        }
+        .form-button{
+            @include flex($justify: center);
+            padding-top: 49px;
+            .btn-send{
+                border: 2px solid $btn-font;
+                background-color: transparent;
+                width: 240px;
+                height: 63px;
             }
         }
     }

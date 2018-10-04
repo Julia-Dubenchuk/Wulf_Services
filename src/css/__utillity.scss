@@ -1,11 +1,16 @@
 @import "__colors";
 
-
-
 @mixin font-item($family: $fontCirceRegular,  $size: 18px, $height: 32px, $weight: 400, $color: $primary) {
   font-family: $family;
   font-size: $size;
   line-height: $height;
   font-weight: $weight;
   color: $color;
+}
+
+@mixin flex($direction: row, $justify: flex-start, $align: stretch) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
 }
