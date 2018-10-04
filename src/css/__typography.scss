@@ -1,8 +1,56 @@
 @import "__utillity", "./__colors";
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+@font-face {
+    font-family: 'Circe Regular';
+    src: url('../font/Circe-Regular.eot');
+    src: url('../font/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../font/Circe-Regular.woff') format('woff'),
+    url('../font/Circe-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Circe Bold';
+    src: url('../font/Circe-Bold.eot');
+    src: url('../font/Circe-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../font/Circe-Bold.woff') format('woff'),
+    url('../font/Circe-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe ExtraBold';
+    src: url('../font/Circe-ExtraBold.eot');
+    src: url('../font/Circe-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../font/Circe-ExtraBold.woff') format('woff'),
+    url('../font/Circe-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 $fontCabin: 'Cabin', 'Roboto', sans-serif;
+$fontCirceRegular: 'Circe Regular', 'Roboto', sans-serif;
+$fontCirceBold: 'Circe Bold', 'Roboto', sans-serif;
+$fontCirceExtraBold: 'Circe ExtraBold', 'Roboto', sans-serif;
 
 .main-title{
-    @include font-item($size: 186px, $height: 186px, $weight: 700, $color: $white);
+    @include font-item($family: $fontCirceExtraBold, $size: 187px, $height: 186px, $weight: 700, $color: $white);
     text-shadow: 0px 20px 90px rgba(36, 33, 31, 0.1);
+    text-transform: uppercase;
+}
+.title-card{
+    @include font-item($family: $fontCirceBold, $size: 48px, $height: 48px, $weight: 700, $color: $black);
+}
+.font-description{
+    @include font-item($size: 23px, $height: 23px, $color: $grey);
+}
+.font-text{
+    @include font-item($family: $fontCabin, $color: $primary);
+}
+.link-process{
+    @include font-item($family: $fontCabin, $size: 13px, $height: 14px, $color: $light-grey);
+    transform: scaleY(1.0023);
 }

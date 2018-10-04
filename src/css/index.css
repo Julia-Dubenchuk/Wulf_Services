@@ -1,14 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin");
+@font-face {
+  font-family: "Circe Regular";
+  src: url("../font/Circe-Regular.eot");
+  src: url("../font/Circe-Regular.eot?#iefix") format("embedded-opentype"), url("../font/Circe-Regular.woff") format("woff"), url("../font/Circe-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Circe Bold";
+  src: url("../font/Circe-Bold.eot");
+  src: url("../font/Circe-Bold.eot?#iefix") format("embedded-opentype"), url("../font/Circe-Bold.woff") format("woff"), url("../font/Circe-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Circe ExtraBold";
+  src: url("../font/Circe-ExtraBold.eot");
+  src: url("../font/Circe-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../font/Circe-ExtraBold.woff") format("woff"), url("../font/Circe-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 .main-title {
-  font-family: "Circe", "Roboto", sans-serif;
-  font-size: 186px;
+  font-family: "Circe ExtraBold", "Roboto", sans-serif;
+  font-size: 187px;
   line-height: 186px;
   font-weight: 700;
   color: #ffffff;
   text-shadow: 0px 20px 90px rgba(36, 33, 31, 0.1);
+  text-transform: uppercase;
 }
 
-* {
-  box-sizing: border-box;
+.title-card {
+  font-family: "Circe Bold", "Roboto", sans-serif;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #282828;
+}
+
+.font-description {
+  font-family: "Circe Regular", "Roboto", sans-serif;
+  font-size: 23px;
+  line-height: 23px;
+  font-weight: 400;
+  color: rgba(35, 35, 35, 0.5);
+}
+
+.font-text {
+  font-family: "Cabin", "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  color: rgba(53, 53, 53, 0.6);
+}
+
+.link-process {
+  font-family: "Cabin", "Roboto", sans-serif;
+  font-size: 13px;
+  line-height: 14px;
+  font-weight: 400;
+  color: rgba(77, 77, 77, 0.5);
+  transform: scaleY(1.0023);
 }
 
 body {
@@ -16,15 +68,93 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .wrapper {
   background-color: #ffffff;
+  position: relative;
+}
+
+.contact {
+  position: absolute;
+  top: 228px;
+  right: 36px;
+}
+
+.nav-icons {
+  background-color: #ffffff;
+  box-shadow: 0px 30px 180px 0px rgba(0, 0, 0, 0.24);
+  width: 64px;
+  height: 346px;
+}
+.nav-icons .social-icon {
+  list-style: none;
+}
+
+.section-header {
+  position: relative;
+  height: 1044px;
+}
+
+.main-title {
+  position: absolute;
+  left: 136px;
+  top: 146px;
+  margin: 0;
+  max-width: 876px;
+  z-index: 1;
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 238px;
+  top: 232px;
   max-width: 1160px;
   height: 910px;
   box-shadow: 0px 30px 120px 0px rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
+}
+.card__pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding: 60px 41px 196px;
+}
+.card__pagination .link-process {
+  display: flex;
+  align-items: center;
+}
+.card__pagination img {
+  padding-left: 27px;
+}
+.card__content {
+  padding-left: 140px;
+}
+.card__content .wrapper-process {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card__content .wrapper-process .process-item .title-card {
+  margin: 0;
+  padding-bottom: 20px;
+}
+.card__content .wrapper-process .process-item:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+}
+.card__content .wrapper-process .process-item:last-child {
+  max-width: 547px;
+  padding-top: 74px;
 }
 
 /*# sourceMappingURL=index.css.map */
