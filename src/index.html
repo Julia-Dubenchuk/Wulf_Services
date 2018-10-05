@@ -83,7 +83,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="pagination__arrow">
+                <div class="pagination__arrow-bottom">
                     <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -114,8 +114,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="card__pagination">
-                    <a href="#" class="link-process">Previous process
+                <div class="card__pagination card__pagination_bottom">
+                    <a href="#" class="link-process">Next process
                         <img src="./image/arrow_down.svg" alt="Arrow down">
                     </a>
                 </div>
@@ -141,9 +141,9 @@
             <div class="main-logo">
                 <img src="./image/logotype.png" alt="Logo company">
             </div>
-            <div class="footer-form">
+            <div class="footer-form form-none" id="form-user">
                 <div class="block-close">
-                    <div class="icon-close">
+                    <div class="icon-close" id="close-form" onclick="closeForm()">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -174,53 +174,56 @@
                     </form>
                 </div>
             </div>
-            <div class="footer-wrapper">
-                <h2 class="main-question">
-                    Want to know more about our services?
-                    Interested in started a project?
-                </h2>
-                <div class="footer-btn">
-                    <button class="button">
-                        <span class="font-footer-btn">Let's talk</span>
-                    </button>
+            <div class="open-footer" id="footer">
+                <div class="footer-wrapper">
+                    <h2 class="main-question">
+                        Want to know more about our services?
+                        Interested in started a project?
+                    </h2>
+                    <div class="footer-btn">
+                        <button class="button" id="open-form" onclick="openForm()">
+                            <span class="font-footer-btn">Let's talk</span>
+                        </button>
+                    </div>
+                    <div class="footer-info">
+                        <div class="copyright">
+                            <span class="font-footer_dark">Copyright &#169;</span>
+                            <span class="font-footer_light">Wulf arts <span class="letter-small">inc.</span></span>
+                        </div>
+                        <div class="footer-icon">
+                            <div class="icon">
+                                <img src="./image/pinterest.svg" alt="Icon pinterest">
+                            </div>
+                            <div class="icon">
+                                <img src="./image/icon_ball.svg" alt="Icon ball">
+                            </div>
+                            <div class="icon">
+                                <img src="./image/footer-instagram.svg" alt="Icon instagram">
+                            </div>
+                            <div class="icon">
+                                <img src="./image/footer-be.svg" alt="Icon Be">
+                            </div>
+                            <div class="icon">
+                                <img src="./image/footer-facebook.svg" alt="Icon facebook">
+                            </div>
+                        </div>
+                        <div class="company-email">
+                            <span class="font-footer_light">info@wulfinc.com</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="footer-info">
-                    <div class="copyright">
-                        <span class="font-footer_dark">Copyright</span>
-                        <span class="font-footer_light">Wulfarts inc.</span>
+                <div class="footer-bottom">
+                    <div class="author">
+                        <span class="author__font">Made by nextpage</span>
+                        <span class="author__icon">
+                            <img src="./image/shape.png" alt="Icon author site">
+                        </span>
                     </div>
-                    <div class="footer-icon">
-                        <div class="icon">
-                            <img src="./image/pinterest.svg" alt="Icon pinterest">
-                        </div>
-                        <div class="icon">
-                            <img src="./image/icon_ball.svg" alt="Icon ball">
-                        </div>
-                        <div class="icon">
-                            <img src="./image/instagram.svg" alt="Icon instagram">
-                        </div>
-                        <div class="icon">
-                            <img src="./image/icon.svg" alt="Icon Be">
-                        </div>
-                        <div class="icon">
-                            <img src="./image/facebook.svg" alt="Icon facebook">
-                        </div>
-                    </div>
-                    <div class="company-email">
-                        <span class="font-footer_light">info@wulfinc.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="author">
-                    <span class="author__font">Made by nextpage</span>
-                    <span class="author__icon">
-                        <img src="./image/shape.png" alt="Icon author site">
-                    </span>
                 </div>
             </div>
         </footer>
     </div>
+    <script type="text/javascript" src="./js/index.js"></script>
 </body>
 
 </html>

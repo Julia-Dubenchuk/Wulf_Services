@@ -7,9 +7,14 @@ body,
 h1,
 h2,
 h3,
-h4{
+h4,
+p{
     margin: 0;
     padding: 0;
+}
+
+body{
+  overflow-x: hidden;
 }
 
 a{
@@ -37,7 +42,10 @@ ul{
 .contact{
     position: absolute;
     top: 228px;
-    right: 36px;
+    right: 19px;
+    @media screen and (max-width: 960px) {
+      display: none;
+    }
 }
 
 .nav-icons{
@@ -48,24 +56,34 @@ ul{
     .social-icon{
         @include flex($justify: center);
         width: 100%;
-        height: 64px;
         a{
             display: flex;
             height: 100%;
             cursor: pointer;
         }
         &:first-child{
-            border-bottom: 2px solid #f0f0f0;
+          height: 64px;
+          border-bottom: 2px solid #f0f0f0;
         }
         &:nth-child(2){
             position: relative;
+            height: 93px;
+        }
+        &:nth-child(3){
+          height: 26px;
+        }
+        &:nth-child(4){
+          height: 96px;
+        }
+        &:nth-child(5){
+          height: 28px;
         }
     }
 }
 
 .social-lines {
     position: absolute;
-    top: 32px;
+    top: 46px;
     right: -36px;
     .line-top{
         position: absolute;
@@ -84,25 +102,35 @@ ul{
 .pagination{
     @include flex($direction: column);
     position: absolute;
-    top: 477px;
+    top: 447px;
     left: 148px;
+    @media screen and (max-width: 1540px){
+      left: 24px;
+    }
+    @media screen and (max-width: 960px){
+      display: none;
+    }
     z-index: 2;
     &__arrow{
         padding: 30px 0 31px 33px;
+    }
+    &__arrow-bottom{
+      padding: 20px 0 31px 33px;
     }
     &__content{
         display: flex;
         .pages{
             @include flex($direction: column);
             background-color: $white;
-            box-shadow: 0px 20px 90px 0px rgba(36, 33, 31, 0.15);
+            box-shadow: 0 20px 90px 0 rgba(36, 33, 31, 0.15);
             width: 75px;
-            height: 396px;
+            height: 389px;
             .active-page{
                 position: absolute;
                 left: -7px;
+                top: -2px;
                 background-color:  #f9c97b;
-                box-shadow: 0px 44px 103px 0px rgba(0, 0, 0, 0.09);
+                box-shadow: 0 44px 103px 0 rgba(0, 0, 0, 0.09);
                 width: 8px;
                 height: 80px;
                 .active{
@@ -113,6 +141,17 @@ ul{
                 @include flex($justify: center, $align: center);
                 position: relative;
                 height: 77px;
+                &:first-child{
+                  height: 73px;
+                }
+                &:nth-child(2),
+                &:nth-child(3){
+                  height: 77px;
+                }
+              &:nth-child(4),
+              &:nth-child(5){
+                height: 76px;
+              }
                 &:not(:last-child){
                     border-bottom: 2px solid #ebebea;
                 }
@@ -122,15 +161,29 @@ ul{
             }
         }
         .right{
-            padding-left: 57px;
+            padding-left: 55px;
+            @media screen and (max-width: 1024px){
+              padding-left: 24px;
+            }
             .name-pages{
                 @include flex($direction: column);
                 height: 396px;
                 .name-page{
                     @include flex($align: center);
                     height: 79px;
+                    .nonactive-page{
+                      @media screen and (max-width: 1024px){
+                        width: 150px;
+                      }
+                    }
                     .active-page{
                         width: 326px;
+                        @media screen and (max-width: 1680px){
+                          width: 176px;
+                        }
+                        @media screen and (max-width: 1024px){
+                          width: 121px;
+                        }
                         height: 2px;
                         background-color: $active-line;
                     }
@@ -147,25 +200,61 @@ ul{
 }
 .main-title{
     position: absolute;
-    left: 136px;
-    top: 146px;
+    left: 129px;
+    @media screen and (max-width: 1540px){
+      left: 28px;
+    }
+    top: 139px;
     margin: 0;
     max-width: 876px;
+    @media screen and (max-width: 1024px){
+      max-width: 847px;
+    }
+    @media screen and (max-width: 960px) {
+      top: 61px;
+      max-width: 100%;
+    }
     z-index: 2;
 }
 .card{
     @include flex($direction: column);
     position: absolute;
-    right: 238px;
+    right: 221px;
+    @media screen and (max-width: 1850px){
+      right: 138px;
+    }
     top: 232px;
     max-width: 1160px;
+    @media screen and (max-width: 1775px){
+      right: 125px;
+      max-width: 1024px;
+    }
+    @media screen and (max-width: 1680px){
+      max-width: 977px;
+    }
+    @media screen and (max-width: 1540px){
+      right: 100px;
+    }
+    @media screen and (max-width: 1390px){
+      max-width: 608px;
+    }
+    @media screen and (max-width: 1390px){
+      max-width: 100%;
+      right: 0;
+    }
     height: 910px;
-    box-shadow: 0px 30px 120px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 30px 120px 0 rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
     z-index: 1;
     &__pagination{
         @include flex($justify: flex-end);
-        padding: 60px 41px 196px;
+        padding: 75px 41px 211px;
+        @media screen and (max-width: 1390px){
+          padding: 75px 24px 146px;
+        }
+        @media screen and (max-width: 960px){
+          display: none;
+      }
         .link-process{
             @include flex($align: center);
         }
@@ -173,22 +262,41 @@ ul{
             padding-left: 27px;
         }
     }
+    &__pagination_bottom{
+      padding: 73px 41px 211px;
+      @media screen and (max-width: 1390px){
+        padding: 73px 24px 146px;
+      }
+    }
     &__content{
         padding-left: 140px;
+        @media screen and (max-width: 1775px){
+          padding-left: 80px;
+        }
+        @media screen and (max-width: 1680px){
+          padding-left: 24px;
+        }
+        @media screen and (max-width: 1390px){
+          padding: 0 24px;
+        }
         .wrapper-process{
             display: flex;
             flex-wrap: wrap;
             .process-item{
                 .title-card{
-                    padding-bottom: 20px;
+                    padding-bottom: 10px;
                 }
                 &:nth-child(2){
-                    @include flex($direction: column, $justify: center);
+                    @include flex($direction: column);
                     padding-left: 40px;
+                    padding-top: 109px;
+                    @media screen and (max-width: 1390px){
+                      padding-top: 24px;
+                    }
                 }
                 &:last-child{
-                    max-width: 547px;
-                    padding-top: 74px;
+                    max-width: 566px;
+                    padding-top: 63px;
                 }
             }
         }
@@ -204,20 +312,47 @@ ul{
     .main{
         max-width: 1160px;
         border: 1px solid $black;
-        padding: 50px 80px 64px 82px;
+        padding: 48px 78px 59px 84px;
         @include flex($direction: column);
         position: absolute;
-        right: 238px;
+        right: 222px;
+        @media screen and (max-width: 1850px) {
+          right: 138px;
+        }
+        @media screen and (max-width: 1775px){
+          right: 125px;
+          max-width: 1024px;
+        }
+        @media screen and (max-width: 1680px){
+          max-width: 977px;
+        }
+        @media screen and (max-width: 1540px){
+          right: 100px;
+        }
+        @media screen and (max-width: 1390px){
+          max-width: 608px;
+          padding: 48px 8px 59px 16px;
+        }
         bottom: 100px;
+        box-sizing: border-box;
         .next{
-            padding-bottom: 25px;
+            padding-bottom: 9px;
         }
         .wrapper-content{
             @include flex($align: center);
+            @media screen and (max-width: 1390px){
+              flex-direction: column;
+            }
             .title{
-                padding-right: 139px;
+                padding-right: 138px;
+                @media screen and (max-width: 1390px){
+                  padding-right: 0;
+                }
             }
             .button{
+                @media screen and (max-width: 1390px){
+                  padding-top: 33px;
+                }
                 &__services{
                     background-color:  #ffffff;
                     box-shadow: 0px 10px 43px 0px rgba(0, 0, 0, 0.13);
@@ -246,31 +381,41 @@ ul{
 
 .section-footer{
     width: 100%;
-    //height: 1234px;
-    display: flex;
-    justify-content: center;
+    @include flex($justify: center);
     background: url("../image/background_footer.svg") center bottom / cover no-repeat;
     position: relative;
     .main-logo{
         position: absolute;
-        top: 326px;
-        left: 40%;
+        top: 288px;
+        left: 772px;
+        @media screen and (max-width: 1850px){
+          left: 40%;
+        }
+        @media screen and (max-width: 1390px){
+          left: 35%;
+        }
+        @media screen and (max-width: 1390px){
+          left: 33%;
+        }
     }
 
 }
 
 .footer-wrapper{
     @include flex($direction: column, $justify: center, $align: center);
-    padding-bottom: 46px;
-    border: 3px solid $black;
+    padding-bottom: 37px;
+    border-bottom: 3px solid $black;
     .main-question{
         text-align: center;
-        padding: 535px 400px 0;
+        padding: 491px 374px 0 390px;
+        @media screen and (max-width: 1850px){
+          padding: 491px 125px 0;
+        }
     }
     .footer-btn{
-        padding: 78px 138px 251px 142px;
+        padding: 69px 138px 248px 158px;
         .button{
-            border: 2px solid $btn-font;
+            border: 4px solid $btn-font;
             background-color: transparent;
             width: 240px;
             height: 63px;
@@ -280,40 +425,71 @@ ul{
         @include flex($justify: space-between);
         width: 100%;
         box-sizing: border-box;
-        padding: 0 138px 0 142px;
+        padding: 0 119px 0 139px;
+        @media screen and (max-width: 1850px){
+          padding: 0 24px;
+        }
         .footer-icon{
             @include flex($justify: space-between);
             width: 239px;
+          .icon{
+            &:first-child{
+              padding-right: 32px;
+            }
+            &:nth-child(2){
+              padding-right: 35px;
+            }
+            &:nth-child(3){
+              padding-right: 30px;
+            }
+            &:nth-child(4){
+              padding-right: 36px;
+            }
+          }
         }
     }
 }
 
 .footer-bottom{
     @include flex($justify: flex-end, $align: center);
-    padding: 27px 138px 56px 142px;
+    padding: 27px 123px 56px 142px;
+    @media screen and (max-width: 1850px){
+      padding: 27px 24px 56px 142px;
+    }
     .author{
         @include flex($align: center);
         &__icon{
-            padding-left: 13px;
+            padding-left: 21px;
         }
     }
 }
 
 .footer-form{
     @include flex($direction: column);
-    width: 520px;
-    height: 372px;
+    width: 742px;
+    padding-top: 284px;
+    padding-bottom: 330px;
     .block-close{
-        @include flex($justify: flex-end);
+        @include flex($justify: flex-end, $align: center);
+        min-height: 24px;
+        padding-bottom: 121px;
+        .icon-close{
+          height: 16px;
+        }
     }
+  .block-title{
+    padding-bottom: 36px;
+    align-self: center;
+  }
     .block-form{
         .wrapper-form{
             @include flex($justify: center);
+            width: 763px;
             .data{
                 @include flex($direction: column);
                 .elem-form{
-                    width: 248px;
-                    height: 42px;
+                    width: 250px;
+                    height: 44px;
                     border: 1px solid $light-orange;
                     background-color: $background-input;
                     padding-left: 21px;
@@ -332,7 +508,7 @@ ul{
                     padding-left: 19px;
                     padding-top: 15px;
                     width: 250px;
-                    height: 164px;
+                    height: 168px;
                     -webkit-box-sizing: border-box;
                     -moz-box-sizing: border-box;
                     box-sizing: border-box;
@@ -341,13 +517,26 @@ ul{
         }
         .form-button{
             @include flex($justify: center);
-            padding-top: 49px;
+            padding-top: 47px;
+            width: 766px;
             .btn-send{
-                border: 2px solid $btn-font;
+                border: 4px solid $btn-font;
                 background-color: transparent;
                 width: 240px;
                 height: 63px;
             }
         }
     }
+}
+
+.form-none{
+  display: none;
+}
+
+.form-open{
+  display: flex;
+}
+
+.letter-small{
+  text-transform: lowercase;
 }
