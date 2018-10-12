@@ -10,4 +10,3 @@ function closeForm(){
   formForUser.classList.add("form-none");
   footer.classList.remove("form-none");
 }
-

@@ -145,7 +145,7 @@ $fontCirceExtraBold: 'Circe ExtraBold', 'Roboto', sans-serif;
     }
 }
 .font-placeholder{
-  @include font-item($family: $fontCirceExtraLight, $size: 16px, $height: 16px, $weight: 300, $color: $font-placeholder);
+  @include font-item($family: $fontCirceExtraLight, $size: 16px, $height: 16px, $weight: 300, $color: $white);
   text-shadow: 0 59px 137px rgba(0, 0, 0, 0.09);
   @media screen and (max-width: 960px){
     font-size: 12px;
