@@ -59,52 +59,98 @@ $fontCirceExtraBold: 'Circe ExtraBold', 'Roboto', sans-serif;
     @media screen and (max-width: 960px){
       font-size: 36px;
       line-height: 36px;
+      letter-spacing: 4px;
       text-shadow: 0 15px 60px rgba(61, 61, 61, 0.3);
     }
 }
 
 .main-question{
     @include font-item($family: $fontCirceBold, $size: 62px, $height: 80px, $weight: 700, $color: $white);
+    @media screen and (max-width: 960px) {
+      font-size: 22px;
+      line-height: 32px;
+      transform: scaleY(1.0009);
+    }
 }
 
 .content-title{
     @include font-item($family: $fontCirceExtraBold, $size: 59px, $height: 59px, $weight: 700, $color: $black);
     word-spacing: 5.2px;
+    @media screen and (max-width: 960px) {
+      font-size: 24px;
+      line-height: 24px;
+    }
 }
 .title-card{
     @include font-item($family: $fontCirceExtraBold, $size: 49px, $height: 48px, $weight: 700, $color: $black);
     letter-spacing: 1px;
+  @media screen and (max-width: 960px){
+    padding: 86px 0 14px 0;
+    font-size: 24px;
+    line-height: 24px;
+  }
 }
 .title-form{
   @include font-item($family: $fontCirceExtraBold, $size: 43px, $height: 39px, $weight: 700, $color: $white);
+  @media screen and (max-width: 960px){
+    font-size: 20px;
+    line-height: 24px;
+  }
 }
 .font-description{
     @include font-item($size: 23px, $height: 23px, $color: $grey);
     letter-spacing: 1px;
+    @media screen and (max-width: 960px){
+      font-size: 12px;
+      line-height: 14px;
+    }
 }
 .font-footer-btn{
     @include font-item($family: $fontCirceExtraBold, $size: 23px, $height: 23px, $weight: 700, $color: $btn-font);
+    @media screen and (max-width: 960px){
+      font-size: 12px;
+      line-height: 24px;
+    }
 }
 .font-text{
     @include font-item($family: $fontCabin, $color: $primary);
     letter-spacing: 1px;
+    @media screen and (max-width: 960px){
+      font-size: 12px;
+      line-height: 20px;
+    }
 }
 .font-number{
     @include font-item($family: $fontCirceBold, $size: 21px, $height: 21px, $color: $primary);
+}
+.font-mobile-number{
+  @include font-item($size: 12px, $height: 14px, $color: $primary);
 }
 .font-footer_light{
   @include font-item($family: $fontCirceExtraBold, $size: 17px, $height: 16px, $weight: 700, $color: $footer-light-color);
   text-transform: uppercase;
   letter-spacing: 1px;
+  @media screen and (max-width: 960px){
+    font-size: 9px;
+    line-height: 14px;
+  }
 }
 .font-footer_dark{
     @include font-item($family: $fontCirceExtraBold, $size: 16px, $height: 16px, $weight: 700, $color: $footer-dark-color);
     text-transform: uppercase;
     letter-spacing: 1px;
+    @media screen and (max-width: 960px){
+      font-size: 9px;
+      line-height: 14px;
+    }
 }
 .font-placeholder{
   @include font-item($family: $fontCirceExtraLight, $size: 16px, $height: 16px, $weight: 300, $color: $font-placeholder);
   text-shadow: 0 59px 137px rgba(0, 0, 0, 0.09);
+  @media screen and (max-width: 960px){
+    font-size: 12px;
+    line-height: 12px;
+  }
 }
 .link-process{
     @include font-item($family: $fontCabin, $size: 13px, $height: 14px, $color: $light-grey);
@@ -115,7 +161,11 @@ $fontCirceExtraBold: 'Circe ExtraBold', 'Roboto', sans-serif;
 .button-name{
     @include font-item($size: 13px, $height: 14px, $weight: 700, $color: $btn-color);
     text-transform: uppercase;
-  letter-spacing: 2px;
+    letter-spacing: 2px;
+    @media screen and (max-width: 960px) {
+      font-size: 11px;
+      line-height: 14px;
+    }
 }
 .author__font{
   @include font-item($family: $fontCirceExtraBold, $size: 12px, $height: 14px, $weight: 700, $color: $footer-dark-author);

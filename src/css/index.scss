@@ -193,10 +193,66 @@ ul{
     }
 }
 
+.pagination-mobile{
+    display: none;
+    @media screen and (max-width: 960px){
+        @include flex();
+        position: absolute;
+        bottom: -11px;
+        left: calc(50% - 136px);
+        height: 40px;
+    }
+    .arrow-left{
+        transform: rotate(-90deg);
+    }
+    .arrow-right{
+        transform: translateX(24px) rotate(90deg);
+    }
+    &__arrow{
+        padding: 21px 6px 0 0;
+        width: 30px;
+    }
+    &__arrow-bottom{
+        padding: 20px 0 31px 33px;
+    }
+    &__content{
+        display: flex;
+        .pages{
+            @include flex();
+            background-color: $white;
+            box-shadow: 0 20px 90px 0 rgba(36, 33, 31, 0.15);
+            .active-page{
+                position: absolute;
+                left: 0;
+                bottom: -4px;
+                background-color:  #f9c97b;
+                box-shadow: 0 44px 103px 0 rgba(0, 0, 0, 0.09);
+                width: 100%;
+                height: 4px;
+                .active{
+                    color: $active-page;
+                }
+            }
+            .page{
+                @include flex($justify: center, $align: center);
+                position: relative;
+                padding: 0 12px;
+                height: 40px;
+                &:not(:last-child){
+                    border-right: 1px solid #ebebea;
+                }
+            }
+        }
+    }
+}
+
 //=============================header=============================
 .section-header{
     position: relative;
     height: 1044px;
+    @media screen and (max-width: 960px) {
+        height: 665px;
+    }
 }
 .main-title{
     position: absolute;
@@ -213,6 +269,7 @@ ul{
     @media screen and (max-width: 960px) {
       top: 61px;
       max-width: 100%;
+      left: calc(50% - 184px);
     }
     z-index: 2;
 }
@@ -238,9 +295,16 @@ ul{
     @media screen and (max-width: 1390px){
       max-width: 608px;
     }
-    @media screen and (max-width: 1390px){
+    @media screen and (max-width: 990px){
+        right: 90px;
+    }
+    @media screen and (max-width: 960px){
       max-width: 100%;
       right: 0;
+      left: 0;
+      top: 107px;
+      height: auto;
+      box-shadow: none;
     }
     height: 910px;
     box-shadow: 0 30px 120px 0 rgba(0, 0, 0, 0.2);
@@ -279,10 +343,27 @@ ul{
         @media screen and (max-width: 1390px){
           padding: 0 24px;
         }
+        @media screen and (max-width: 960px){
+            padding: 0 20px;
+        }
         .wrapper-process{
             display: flex;
             flex-wrap: wrap;
+            position: relative;
+            @media screen and (max-width: 960px){
+                flex-direction: column;
+                align-items: flex-start;
+            }
             .process-item{
+                @media screen and (max-width: 960px) {
+                    .photo-card {
+                        width: 100%;
+                        height: auto;
+                    }
+                    &:first-child{
+                        position: relative;
+                    }
+                }
                 .title-card{
                     padding-bottom: 10px;
                 }
@@ -291,12 +372,16 @@ ul{
                     padding-left: 40px;
                     padding-top: 109px;
                     @media screen and (max-width: 1390px){
-                      padding-top: 24px;
+                      padding-left: 0;
+                      padding-top: 0;
                     }
                 }
                 &:last-child{
                     max-width: 566px;
                     padding-top: 63px;
+                    @media screen and (max-width: 960px){
+                        padding-top: 32px;
+                    }
                 }
             }
         }
@@ -309,6 +394,9 @@ ul{
     height: 500px;
     background-color: $background-content;
     position: relative;
+    @media screen and (max-width: 960px) {
+        height: 240px;
+    }
     .main{
         max-width: 1160px;
         border: 1px solid $black;
@@ -333,10 +421,24 @@ ul{
           max-width: 608px;
           padding: 48px 8px 59px 16px;
         }
+        @media screen and (max-width: 990px){
+            right: 90px;
+        }
+        @media screen and (max-width: 960px) {
+            border: none;
+            padding: 0 0 0 42px;
+            right: 0;
+            left: 0;
+            top: 53px;
+            max-width: 100%;
+        }
         bottom: 100px;
         box-sizing: border-box;
         .next{
             padding-bottom: 9px;
+            @media screen and (max-width: 960px) {
+                padding-bottom: 18px;
+            }
         }
         .wrapper-content{
             @include flex($align: center);
@@ -362,6 +464,10 @@ ul{
                     padding: 0;
                     cursor: pointer;
                     border: none;
+                    @media screen and (max-width: 960px) {
+                        width: 240px;
+                        height: 40px;
+                    }
                 }
                 &__line{
                     background-color:  $active-page;
@@ -371,6 +477,10 @@ ul{
                     position: absolute;
                     bottom: 0;
                     left: 19px;
+                    @media screen and (max-width: 960px) {
+                        width: 180px;
+                        height: 2px;
+                    }
                 }
             }
         }
@@ -397,6 +507,40 @@ ul{
         @media screen and (max-width: 1390px){
           left: 33%;
         }
+        @media screen and (max-width: 960px){
+            top: 90px;
+            left: 12%;
+        }
+        @media screen and (max-width: 860px){
+            left: 36%;
+        }
+        @media screen and (max-width: 720px){
+            left: 32%;
+        }
+        @media screen and (max-width: 620px){
+            left: 25%;
+        }
+        @media screen and (max-width: 460px){
+            left: 23%;
+        }
+        @media screen and (max-width: 380px){
+            left: 23%;
+        }
+        @media screen and (max-width: 340px){
+            left: 12%;
+        }
+        img{
+            @media screen and (max-width: 860px){
+                width: 228px;
+                height: 200px;
+            }
+        }
+    }
+    @media screen and (max-width: 990px){
+        padding: 0 36px 0 38px;
+    }
+    @media screen and (max-width: 960px){
+        padding: 0;
     }
 
 }
@@ -411,14 +555,24 @@ ul{
         @media screen and (max-width: 1850px){
           padding: 491px 125px 0;
         }
+        @media screen and (max-width: 960px){
+            padding: 185px 36px 0 38px;
+        }
     }
     .footer-btn{
         padding: 69px 138px 248px 158px;
+        @media screen and (max-width: 960px){
+            padding: 40px 0 71px;
+        }
         .button{
             border: 4px solid $btn-font;
             background-color: transparent;
             width: 240px;
             height: 63px;
+            @media screen and (max-width: 960px){
+                width: 120px;
+                height: 31px;
+            }
         }
     }
     .footer-info{
@@ -428,6 +582,9 @@ ul{
         padding: 0 119px 0 139px;
         @media screen and (max-width: 1850px){
           padding: 0 24px;
+        }
+        @media screen and (max-width: 960px){
+            justify-content: center;
         }
         .footer-icon{
             @include flex($justify: space-between);
@@ -456,11 +613,21 @@ ul{
     @media screen and (max-width: 1850px){
       padding: 27px 24px 56px 142px;
     }
+    @media screen and (max-width: 960px){
+        flex-direction: column;
+        padding: 32px 20px 21px;
+    }
     .author{
         @include flex($align: center);
+        @media screen and (max-width: 960px){
+            display: none;
+        }
         &__icon{
             padding-left: 21px;
         }
+    }
+    .bottom-copyright{
+        padding-top: 14px;
     }
 }
 
@@ -469,10 +636,17 @@ ul{
     width: 742px;
     padding-top: 284px;
     padding-bottom: 330px;
+    @media screen and (max-width: 960px){
+        width: auto;
+        padding: 111px 30px 43px;
+    }
     .block-close{
         @include flex($justify: flex-end, $align: center);
         min-height: 24px;
         padding-bottom: 121px;
+        @media screen and (max-width: 960px){
+            padding-bottom: 45px;
+        }
         .icon-close{
           height: 16px;
         }
@@ -480,11 +654,19 @@ ul{
   .block-title{
     padding-bottom: 36px;
     align-self: center;
+    @media screen and (max-width: 960px){
+      padding-bottom: 26px;
+    }
   }
     .block-form{
         .wrapper-form{
             @include flex($justify: center);
             width: 763px;
+            @media screen and (max-width: 960px){
+                flex-direction: column;
+                width: auto;
+                align-items: center;
+            }
             .data{
                 @include flex($direction: column);
                 .elem-form{
@@ -497,10 +679,19 @@ ul{
                     &:not(:last-child){
                         margin-bottom: 19px;
                     }
+                    @media screen and (max-width: 960px){
+                        width: 260px;
+                        height: 36px;
+                        padding-left: 10px;
+                        margin-bottom: 11px;
+                    }
                 }
             }
             .message{
                 padding-left: 20px;
+                @media screen and (max-width: 960px){
+                    padding-left: 0;
+                }
                 .elem-textarea{
                     border: 1px solid $light-orange;
                     background-color: $background-input;
@@ -512,6 +703,13 @@ ul{
                     -webkit-box-sizing: border-box;
                     -moz-box-sizing: border-box;
                     box-sizing: border-box;
+                    @media screen and (max-width: 960px){
+                        width: 260px;
+                        height: 88px;
+                        padding-left: 10px;
+                        padding-top: 11px;
+
+                    }
                 }
             }
         }
@@ -519,13 +717,34 @@ ul{
             @include flex($justify: center);
             padding-top: 47px;
             width: 766px;
+            @media screen and (max-width: 960px){
+                padding-top: 30px;
+                width: auto;
+            }
             .btn-send{
                 border: 4px solid $btn-font;
                 background-color: transparent;
                 width: 240px;
                 height: 63px;
+                @media screen and (max-width: 960px){
+                    width: 120px;
+                    height: 31px;
+                }
             }
         }
+    }
+}
+
+.open-footer{
+    @media screen and (max-width: 960px){
+        width: 100%;
+    }
+}
+
+.copyright,
+.company-email{
+    @media screen and (max-width: 960px){
+        display: none;
     }
 }
 
