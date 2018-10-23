@@ -3,12 +3,336 @@
   <component name="ChangeListManager">
     <list default="true" id="e8a0ecdf-da66-4c41-86c5-56c421df961a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/css/__typography.scss" afterPath="$PROJECT_DIR$/src/css/__typography.scss" />
-      <change beforePath="$PROJECT_DIR$/src/css/index.css" afterPath="$PROJECT_DIR$/src/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/src/css/index.css.map" afterPath="$PROJECT_DIR$/src/css/index.css.map" />
-      <change beforePath="$PROJECT_DIR$/src/css/index.scss" afterPath="$PROJECT_DIR$/src/css/index.scss" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" afterPath="$PROJECT_DIR$/src/js/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/atob" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/atob.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/browser-sync" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/browser-sync.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/color-support" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/color-support.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/dev-ip" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/dev-ip.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/gulp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/gulp.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/lt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/lt.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mime" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mime.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/strip-bom" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/strip-bom.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/throttleproxy" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/throttleproxy.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/user-home" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/user-home.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/which" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/which.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/window-size" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/window-size.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/balanced-match/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/balanced-match/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/balanced-match/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/balanced-match/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/balanced-match/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/certs/browsersync.pfx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/certs/gen.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/certs/server.crt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/certs/server.csr" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/certs/server.key" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/changelog.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/cli-options/opts.init.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/cli-options/opts.recipe.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/cli-options/opts.reload.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/cli-options/opts.start.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/client/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/client/dist/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/client/dist/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/client/dist/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/client/dist/index.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/client/dist/index.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/args.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/args.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/async-tasks.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/async-tasks.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/async.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/async.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/bin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/bin.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/browser-sync.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/browser-sync.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/cli-info.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/cli-info.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/cli-options.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/cli-options.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/command.init.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/command.init.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/command.recipe.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/command.recipe.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/command.reload.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/command.reload.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/command.start.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/command.start.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/addCwdToWatchOptions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/addCwdToWatchOptions.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/addDefaultIgnorePatterns.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/addDefaultIgnorePatterns.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/addToFilesOption.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/addToFilesOption.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/appendServerDirectoryOption.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/appendServerDirectoryOption.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/appendServerIndexOption.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/appendServerIndexOption.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/copyCLIIgnoreToWatchOptions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/copyCLIIgnoreToWatchOptions.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/handleExtensionsOption.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/handleExtensionsOption.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/handleFilesOption.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/handleFilesOption.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/handleGhostModeOption.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/handleGhostModeOption.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/handlePortsOption.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/handlePortsOption.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/handleProxyOption.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/handleProxyOption.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/handleServerOption.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/cli/transforms/handleServerOption.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/client.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/client.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/config.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/config.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/connect-utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/connect-utils.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/default-config.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/default-config.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/file-event-handler.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/file-event-handler.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/file-utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/file-utils.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/file-watcher.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/file-watcher.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/hooks.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/hooks.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/http-protocol.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/http-protocol.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/internal-events.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/internal-events.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/lodash.custom.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/lodash.custom.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/logger.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/logger.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/options.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/options.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/plugins.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/plugins.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/public/exit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/public/exit.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/public/init.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/public/init.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/public/notify.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/public/notify.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/public/pause.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/public/pause.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/public/public-utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/public/public-utils.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/public/reload.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/public/reload.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/public/resume.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/public/resume.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/public/stream.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/public/stream.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/server/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/server/index.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/server/proxy-server.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/server/proxy-server.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/server/proxy-utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/server/proxy-utils.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/server/snippet-server.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/server/snippet-server.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/server/static-server.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/server/static-server.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/server/utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/server/utils.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/snippet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/snippet.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/sockets.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/sockets.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/tunnel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/tunnel.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/types.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/types.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/dist/utils.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/arr-diff/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/arr-diff/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/arr-diff/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/arr-diff/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/array-unique/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/array-unique/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/array-unique/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/array-unique/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/braces/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/braces/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/braces/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/braces/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/expand-brackets/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/expand-brackets/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/expand-brackets/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/expand-brackets/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/extglob/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/extglob/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/extglob/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/extglob/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/is-extglob/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/is-extglob/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/is-extglob/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/is-extglob/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/is-glob/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/is-glob/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/is-glob/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/is-glob/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/kind-of/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/kind-of/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/kind-of/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/kind-of/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/micromatch/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/micromatch/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/micromatch/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/micromatch/lib/chars.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/micromatch/lib/expand.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/micromatch/lib/glob.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/micromatch/lib/utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/node_modules/micromatch/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/templates/cli-template.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/templates/connector.tmpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/templates/script-tags-simple.tmpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browser-sync/templates/script-tags.tmpl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/.coveralls.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/component.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/karma.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/node.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/debug.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/inspector-log.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/debug/src/node.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/fs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/graceful-fs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/polyfills.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/test/max-open.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/test/open.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/test/readdir-sort.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/test/write-then-read.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp/bin/gulp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp/completion/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp/completion/bash" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp/completion/fish" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp/completion/powershell" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp/completion/zsh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp/gulp.1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp/lib/completion.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp/lib/taskTree.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/build/build.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/component.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/isarray/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/dist/lodash.compat.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/dist/lodash.compat.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/dist/lodash.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/dist/lodash.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/dist/lodash.underscore.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/dist/lodash.underscore.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/micromatch/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/micromatch/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/micromatch/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/micromatch/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/micromatch/lib/cache.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/micromatch/lib/compilers.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/micromatch/lib/parsers.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/micromatch/lib/utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/micromatch/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/minimatch.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/duplex.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/float.patch" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/passthrough.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/readable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/transform.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/writable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/bin/semver" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/foot.js.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/head.js.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/semver.browser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/semver.browser.js.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/semver.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/semver.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/semver.min.js.gz" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/test/amd.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/test/big-numbers.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/test/clean.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/test/gtr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/test/ltr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/test/major-minor-patch.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/test/no-module.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-bom/cli.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-bom/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-bom/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-bom/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,14 +345,34 @@
     <splitter split-orientation="horizontal" split-proportion="0.5484115">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="244">
-                  <caret line="236" column="50" lean-forward="true" selection-start-line="236" selection-start-column="50" selection-end-line="236" selection-end-column="50" />
+                <state relative-caret-position="578">
+                  <caret line="269" column="46" lean-forward="false" selection-start-line="269" selection-start-column="46" selection-end-line="269" selection-end-column="46" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/package-lock.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -40,8 +384,8 @@
           <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/css/index.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="397">
-                  <caret line="322" column="26" lean-forward="false" selection-start-line="322" selection-start-column="26" selection-end-line="322" selection-end-column="26" />
+                <state relative-caret-position="255">
+                  <caret line="336" column="7" lean-forward="true" selection-start-line="336" selection-start-column="7" selection-end-line="336" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -51,7 +395,7 @@
             <entry file="file://$PROJECT_DIR$/src/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="204">
-                  <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+                  <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -60,8 +404,8 @@
           <file leaf-file-name="__typography.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/css/__typography.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
+                <state relative-caret-position="2465">
+                  <caret line="145" column="1" lean-forward="false" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -122,7 +466,9 @@
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/css/__typography.scss" />
         <option value="$PROJECT_DIR$/src/js/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/css/index.scss" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
       </list>
     </option>
   </component>
@@ -163,6 +509,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,29 +517,11 @@
               <item name="Wulf_Services" type="b2602c69:ProjectViewProjectNode" />
               <item name="Wulf_Services" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="Wulf_Services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wulf_Services" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Wulf_Services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wulf_Services" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Wulf_Services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wulf_Services" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,28 +560,30 @@
       <workItem from="1539278169529" duration="39000" />
       <workItem from="1539278211223" duration="3023000" />
       <workItem from="1539327234587" duration="10640000" />
+      <workItem from="1540309804324" duration="15000" />
+      <workItem from="1540309821717" duration="248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55144000" />
+    <option name="totallyTimeSpent" value="55407000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5871711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5869565" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -273,6 +604,106 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3315">
+          <caret line="257" column="25" lean-forward="false" selection-start-line="257" selection-start-column="25" selection-end-line="257" selection-end-column="25" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/__typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="1" lean-forward="false" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/__utillity.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="66" lean-forward="false" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/__colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4012">
+          <caret line="236" column="50" lean-forward="true" selection-start-line="236" selection-start-column="50" selection-end-line="236" selection-end-column="50" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/__typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/__utillity.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="66" lean-forward="false" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/__colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2023">
@@ -482,8 +913,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/__typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
+        <state relative-caret-position="2465">
+          <caret line="145" column="1" lean-forward="false" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -491,25 +922,41 @@
     <entry file="file://$PROJECT_DIR$/src/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="236" column="50" lean-forward="true" selection-start-line="236" selection-start-column="50" selection-end-line="236" selection-end-column="50" />
+        <state relative-caret-position="578">
+          <caret line="269" column="46" lean-forward="false" selection-start-line="269" selection-start-column="46" selection-end-line="269" selection-end-column="46" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="322" column="26" lean-forward="false" selection-start-line="322" selection-start-column="26" selection-end-line="322" selection-end-column="26" />
+        <state relative-caret-position="255">
+          <caret line="336" column="7" lean-forward="true" selection-start-line="336" selection-start-column="7" selection-end-line="336" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding />
         </state>
       </provider>

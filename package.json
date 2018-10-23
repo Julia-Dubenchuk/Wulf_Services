@@ -17,11 +17,8 @@
   },
   "homepage": "https://github.com/Julia-Dubenchuk/Wulf_Services#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "browser-sync": "2.24.7"
   },
   "dependencies": {
-    "balanced-match": "^1.0.0"
   },
   "description": ""
 }
